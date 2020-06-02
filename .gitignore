@@ -1,8 +1,0 @@
-*.class
-*.jar
-*.project
-bin/
-.classpath
-.settings
-
-
