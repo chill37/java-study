@@ -22,6 +22,7 @@ public class StreamTest2 {
         lst.stream()
     	.flatMap(d -> Arrays.stream(d.split("#")))
     	.forEach(e -> {
+    		e = e.toLowerCase();
     		System.out.println(e);
     		
     	});
