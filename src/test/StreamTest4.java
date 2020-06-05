@@ -56,6 +56,13 @@ public class StreamTest4 {
 		key = Collections.max(cnt.entrySet(), Comparator.comparingInt(Map.Entry::getValue)).getKey();
 		System.out.println(key);
 		
+
+		List<String> maxList = cnt.entrySet().stream()
+			.filter(entry -> entry.getValue() == max.getAsInt())
+			.map(entry -> entry.getKey())
+			.collect(Collectors.toList());
+		System.out.println(maxList);
+		
 	}
 
 }

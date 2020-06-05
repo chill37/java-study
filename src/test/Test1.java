@@ -1,6 +1,8 @@
 package test;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Test1 {
@@ -14,6 +16,7 @@ public class Test1 {
 		System.out.println(ans);
 
 	}
+	
 	
 	public static int points(String[] games) {
 		int points=0;
