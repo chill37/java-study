@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 
 public class StreamTest5 {
 
+	// Map as stream
 	public static void main(String[] args) {
 		
 		Map<String, String> books = new HashMap<>();

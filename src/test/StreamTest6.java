@@ -12,6 +12,7 @@ public class StreamTest6 {
 
 	}
 	
+	// saving previous number
 	static void previousNumber() {
 		List<Integer> sourceList = Arrays.asList(45, 55, 0, 0, 46, 0, 39, 0, 0, 0);
 

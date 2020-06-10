@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 
 public class StreamTest3 {
 
+	// Flatmap
 	public static void main(String[] args) {
 		State karnataka = new State();
 		karnataka.addCity("Bangalore");

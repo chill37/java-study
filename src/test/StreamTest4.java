@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 
 public class StreamTest4 {
 
+	// Find most occurred letter
 	public static void main(String[] args) {
 		
 		List <String> wordsList = Arrays.asList("hello", "bye", "ciao", "bye", "ciao");
