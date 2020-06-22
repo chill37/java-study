@@ -17,12 +17,11 @@ public class CommandLine {
 	}
 	
 	public static String printTasklist(String exeCmd, String param, String folder) {
-		// 실행할 명령
+
 		List<String> command = new ArrayList<>();
 		command.add(exeCmd);
 		command.add(param);
 		
-		// 프로세스 객체 생성
 		ProcessBuilder pb = new ProcessBuilder();
 		pb.redirectErrorStream(true);
 		pb.command(command);
